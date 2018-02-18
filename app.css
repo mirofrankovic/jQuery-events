@@ -4,16 +4,11 @@ header, footer {
     padding: 20px;
     text-align: centre;   
 }
-div{
-    vertical-align: top;
-    display: inline-block;
-    width: 500px;
-    margin: 0 auto 0 auto;
+body{
     background-color: #99CCFF;
-    background-size: cover;
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 10px;
+    font-family:"Times New Roman";
+    background-image:url("https://goo.gl/images/Jte3GA");
+    
 }
 aside {
     padding-top: 10px;
@@ -21,4 +16,12 @@ aside {
 }
 .page-header {
     color: orange;
+}
+hi{
+    color: lime;
+    font-family:"Times New Roman";
+    font-size: 50px
+}
+img{
+    padding: 20px;
 }
