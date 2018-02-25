@@ -7,6 +7,8 @@ header, footer {
 body{
     font-family:"Times New Roman";
     background-image:url("https://goo.gl/images/Jte3GA");
+    padding-top: 70px;
+    padding-bottom: 20px;
     
 }
 aside {
