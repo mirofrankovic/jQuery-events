@@ -1,11 +1,14 @@
+
+
 $(document).ready(function(){
-    $("p").addClass("underline");
-    
 
+    $("p").click(function(){
+    $(this).slideToggle("slow");
+    //define variable
+    var textPossition = $(this).css("...");
+    $(".block").text(row);
 });
-//when name is clicked run the code
-$("#").click(function(){
-
 });
 
-//id function here
+//console.log(textPossition);
+
