@@ -9,6 +9,7 @@ body{
     background-image:url("https://goo.gl/images/Jte3GA");
     padding-top: 70px;
     padding-bottom: 20px;
+    display: flex;
     
 }
 aside {
