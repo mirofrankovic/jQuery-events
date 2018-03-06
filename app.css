@@ -30,3 +30,8 @@ img{
 .underline{
     text-decoration:underline;
 }
+.page-header{
+    background:#98bf21;
+    height:150px;
+    width:300px
+}
