@@ -4,8 +4,9 @@ $(document).ready(function(){
     $("div").animate({fontSize: '50px'}, "slow");
     
 
-
-    $("p").click(function(){
+//Buttons?
+    $("p").click(function(){ 
+        $(this).slideToggle("slow");
    
 });
 });
