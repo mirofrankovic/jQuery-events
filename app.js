@@ -1,6 +1,14 @@
 
 
 $(document).ready(function(){
+$("#my-button").click(function(){
+    //Get search myinput input in buttons HTML
+    var myinput= $("#myinput").val();
+})
+
+
+
+    
     $("div").animate({fontSize: '50px'}, "slow");
     
 
