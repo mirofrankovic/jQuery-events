@@ -20,7 +20,7 @@ $("#my-button").click(function(){
 });
 
 document.getElementById("my-button").onclick = function() {
-    alert(document.getElementById("my-input").value)
+    alert(document.getElementById("myinput").value)
 }
 
 $("button").click(function(){

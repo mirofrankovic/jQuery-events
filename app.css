@@ -6,7 +6,7 @@ header, footer {
 }
 body{
     font-family:"Times New Roman";
-    background-image:url("https://goo.gl/images/Jte3GA");
+    background-color:burlywood;
     padding-top: 70px;
     padding-bottom: 20px;
     display: flex;
@@ -26,6 +26,8 @@ h1{
 }
 img{
     padding: 20px;
+    width: 100px;
+    height: 200px;
 }
 .underline{
     text-decoration:underline;
