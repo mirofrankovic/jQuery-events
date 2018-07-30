@@ -1,42 +1,11 @@
-header, footer {
-    background-color: green;
-    color: purple;
-    padding: 20px;
-    text-align: centre;   
-}
 body{
+    padding: 0;
+    margin: 0;
     font-family:"Times New Roman";
     background-color:burlywood;
-    /*padding-top: 70px;
-    padding-bottom: 20px;
-    display: flex;
-    
 }
-aside {
-    padding-top: 10px;
-    font-weight: bold;
-}
-.page-header {
-    color: orange;
-}
-h1{
-    color: lime;
-    font-family:"Times New Roman";
-    font-size: 50px;
-}
-img{
+h1 {
+    color: purple;
     padding: 20px;
-    width: 100px;
-    height: 200px;
+    text-align: center;   
 }
-.underline{
-    text-decoration:underline;
-}
-.page-header{
-    background:#98bf21;
-    height:150px;
-    width:300px
-}
-.block {
-    display: flex;
-}*/
