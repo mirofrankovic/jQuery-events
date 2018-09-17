@@ -1,180 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>My another project</title>
-    <!-- Bootstrap -->
-
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"> 
-</head>
-<body>
-
-
-<div id="container">   
-    <header>   
-<h1><a href="#" title="back to the homepage">Hello World!</h1>
-
-
-<nav class="navbar navbar-default navbar-light navbar-fixed-top">
-<a class="navbar-brand" href="#">DevelopmentKnowledge</a>
-     
-<div class="navbar-collapse collapse">
-<ul class="nav navbar-nav navbar-right">
-    <li class="active"><a href="#">Home</a></li>
-    <li class="nav-link"><a href="#">About</a></li>
-</ul>
-
-</div>   
-</nav>
-</header>
-
-<section>
-
-<article>
-<!--<img src="https://goo.gl/images/eu13rD.jpg" alt="Name of the picture"/> -->
-<div class="container-fluid text center">
-<div class="block">
-    <div class="col-md-4" id="home">
-        <h2>Home</h2>
-    <p class="block">Home to one of Europe's largest student populations, there's a lot to recommend Manchester as a destination for students.
-    It's the UK's third largest city and it's also a popular destination for tourists
-    so there is a lot to do including a renowned music scene, lots of culture and there's also lots of science, engineering and commerce opportunities.</p>
-    <a href="#" class="btn btn-success btn-lg">Learn</a>
-</div>
-</div>
-</div>
-    </article>
-
-    <atricle>
-<img src="https://cdn.pixabay.com/photo/2016/10/21/10/32/books-1757734__340.jpg" alt="books"/> 
-<div class="col-md-4" id="location">
-    <h2>Location</h2>
-    <p class="block">Located in the north-west of England, Manchester is a good base for exploring the beautiful areas such as the Lake District and the Pennines and other cities.
-    Manchester also claims to be the first for many world firsts and has an enviable reputation for science and industry.</p>
-    <a href="#" class="btn btn-primary btn-default">Learn</a>
-</div>
-    </atricle>
-
-    <article>
-<img src="https://cdn.pixabay.com/photo/2018/01/12/10/49/love-3077979__340.jpg" alt="love"/> 
-<div class="col-md-4" id="lifestyle">
-    <h2>Lifestyle</h2> 
-    <p class="block">Today Manchester offers students from around the world excellent opportunities at Manchester University and Manchester Metropolitan University and also the Royal Northern College of Music.
-    With so many students there’s a thriving nightlife with lots of cafes, bars and pubs as well as excellent shopping facilities.
-    It's also home to some of the world's best-known football teams, Manchester United and Manchester City,
-    and there are world-class sporting facilities available for a wide range of sports.
-    Students heading to Manchester will find an excellent local transport infrastructure including trams and buses but also a great train network to reach other towns and cities.</p>
-    <a href="#" class="btn btn-danger btn-sm">Learn</a>
-</div>
-
-    </article>
-
-</section>
-
-<hr>
-
-<!-- Alignment & Transformation -->
-
-<p class="text-right">Here you will find details of private rented accommodation offered by private landlords/letting agents in Manchester including: student houses, student flats/apartments in Manchester
-bed-sits in Manchester and private halls in Manchester.</p>
-
-<!--Quick Floats -->
-<div class="pull-right">Div Floated to Right</div>
-
-<!-- Clear Float -->
-<div class="clearfix"></div>
-
-<hr>
-
-<!-- Blockquote -->
-<blockquote class="blocquote">
-
-<p>This is my text in paragraph.</p>
-</blockquote>
-
-<hr>
-
-<!-- Lists -->
-<aside>
-<ul class="list-inline">
-    <li>Text One</li>
-    <li>Text Two</li>
-    <li>Text Three</li>
-    <li>Text Four</li>
-</ul>
-</aside>
-
-<hr>
-
-<!-- Buttons -->
-<aside>
-<div class="container">
-<input class="text" id="myinput"> <!-- input type -->
-<button id="my-button" type = "button" class= "btn btn-default">Submit</button>
-
-<button class="btn btn-default">Button</button>
-<a href="#" class="btn btn-default" role="button">Link</a>
-<input class="submit" class="btn btn-default" value="Submit"> <!-- input type -->
-</div>
-
-<hr>
-
-<!-- Forms -->
-<div class="container">
-    <form class="form-inline">
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <title>Riddle me This</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
         
-<div class="form-group">
-    <label>Name</label>
-    <input type="text" class="form-control" placeholder="Add Name">
-</div>
-
-<div class="form-group">
-        <label>Email</label>
-        <input type="Email" class="form-control" placeholder="Add Email">
-    </div>
-
-    <div class="form-group">
-            <label>Gender</label>
-            <select class="form-control">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-            </select>
-        </div>
-
-        <div class="form-group">
-            <label>Upload File</label>
-            <input type="file">
-            <p class="help-block">Only pdf and jpg allowed</p>
-        </div>
-      </form>
-    </div>
-</aside>
-
-   
-
-</div>
-
-<!-- Fixed footer -->
-<div class="navbar navbar-inverse navbar-fixed-bottom">
- <div class="container">
-     <div class="navbar-text pull-left">
-<p>Copyright DevelopmentKnowledge 2018</p> 
-     </div>
-</div>   
-
-</div> 
-
-!-- jQuery (necessery for Bootstrap) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!--<script src="..."></script>-->
-
-<!-- include all compiled plugins -->
-
-<script src="js/bootstrap.min.js"></script>
-
-
-
-</body>
+        
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!--Logo-->
+                <div class="navbar-header"> 
+                <a href="/" class="navbar-brand">
+                    Riddle me This
+                </a>
+                </div>
+                <ul class="nav navbar-nav list-inline clearfix">
+                    <li><a href="index.html"><span>Home</span></a></li>
+                    <li><a href="game.html"><span>Game</span></a></li>
+                    <li><a href="aboutus.html"><span>About us</span></a></li>
+                </ul>
+                
+                </div>
+            </nav>
+            
+        </header>
+        <section>
+          <h2 class="question">Riddle me this and seek for your answer!"</h2>  
+        </section>
+        <footer>
+            
+        </footer>
+    </body>
 </html>

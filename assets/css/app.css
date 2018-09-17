@@ -4,7 +4,7 @@ body{
     font-family:"Times New Roman";
     background-color:burlywood;
 }
-h1 {
+.question {
     color: purple;
     padding: 20px;
     text-align: center;   
